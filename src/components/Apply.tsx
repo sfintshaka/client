@@ -3,7 +3,8 @@ const Apply = () => {
         <div className="container mx-auto p-8 max-w-xl">
             <h2 className="text-3xl font-bold mb-8">Student Accommodation Application Form</h2>
 
-            <form action="submit_form.php" method="post" className="space-y-4">
+            <form action="/Sucesss.tsx" method="post" className="space-y-4">
+            <input type="hidden" name="form-name" value="fileForm"/>
                 {/* Personal Information */}
                 <div className="mb-4">
                     <label htmlFor="fullName" className="block">Full Name</label>
