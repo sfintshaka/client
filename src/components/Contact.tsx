@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Contact = () => {
  
 
@@ -93,6 +95,13 @@ const Contact = () => {
         </div>
       </form>
     </div>
+    <div className="flex justify-center"> 
+      <Link to="/apply">
+       <button className="bg-slate-600 px-5
+       rounded-lg align-center" type="button">Apply Now</button>
+
+    </Link></div>
+   
   </div>
   
   )

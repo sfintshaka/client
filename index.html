@@ -41,6 +41,24 @@
       </div>
     </form>
 
+    <form name="fileForm" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <p>
+        <label>
+          <span>Name:</span>
+          <input name="name" type="text"/>
+        </label>
+      </p>
+      <p>
+        <label>
+          <span>Add file:</span>
+          <input name="file" type="file"/>
+        </label>
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+    <p class="result"></p>
+    
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
