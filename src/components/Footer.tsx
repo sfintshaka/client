@@ -24,7 +24,7 @@ const Footer = () => {
     <div className="bg-gray-800">
       <p className=" bg-gray-800 font-bold mt-2">Contact:</p>
       <p className="bg-gray-800">Phone: 012-343-1967</p>
-      <p className="bg-gray-800">Email: info@alsyed.co.za</p>
+      {/* <p className="bg-gray-800">Email: info@alsyed.co.za</p> */}
     </div>
 
     <div className='bg-gray-800 col-span-2 text-sm text-gray-400'>
