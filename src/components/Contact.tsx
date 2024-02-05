@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Contact = () => {
  
 
@@ -7,7 +5,7 @@ const Contact = () => {
   return (
     <div className="w-full md:w-96 md:max-w-full mx-auto py-5  shadow-xl">
     <div className=" bg-blue-sheff p-6 border border-gray-300 sm:rounded-md ">
-      <form name="contact" method="POST" action="/success">
+      <form name="contact" method="POST" action="/">
       <input type="hidden" name="form-name" value="contact"/>
 
         <label className="block mb-6">
@@ -95,12 +93,6 @@ const Contact = () => {
         </div>
       </form>
     </div>
-    <div className="flex justify-center"> 
-      <Link to="/apply">
-       <button className="bg-slate-600 px-5
-       rounded-lg align-center" type="button">Apply Now</button>
-
-    </Link></div>
    
   </div>
   

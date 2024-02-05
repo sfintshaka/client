@@ -8,15 +8,19 @@ const Card = () => {
         <tbody>
           <tr>
             <td className="bg-blue-sheff text-slate-800 px-4 py-2 font-bold">Sharing</td>
-            <td className="bg-blue-sheff text-slate-800 px-4 py-2">R 4500</td>
+            <td className="bg-blue-sheff text-slate-800  px-4 py-2 font-bold">from</td>
+            <td className="bg-blue-sheff text-slate-800 px-4 py-2">R 5000</td>
           </tr>
           <tr>
             <td className=" bg-blue-sheff text-slate-800 px-4 py-2 font-bold">Sharing Ensuite</td>
-            <td className="bg-blue-sheff text-slate-800 px-4 py-2">R 4500</td>
+            <td className="bg-blue-sheff text-slate-800  px-4 py-2 font-bold">from</td>
+            <td className="bg-blue-sheff text-slate-800 px-4 py-2">R 5500</td>
           </tr>
+        
           <tr>
             <td className="bg-blue-sheff text-slate-800  px-4 py-2 font-bold">Single Room</td>
-            <td className="bg-blue-sheff text-slate-800  px-4 py-2">R 6000</td>
+            <td className="bg-blue-sheff text-slate-800  px-4 py-2 font-bold">from</td>
+            <td className="bg-blue-sheff text-slate-800  px-4 py-2"> R 5500</td>
           </tr>
         </tbody>
       </table>
@@ -30,6 +34,7 @@ const Card = () => {
         <li className="bg-blue-sheff text-slate-800">Showers</li>
         <li className="bg-blue-sheff text-slate-800">Kitchen</li>
         <li className="bg-blue-sheff text-slate-800">Dining area</li>
+        <li className="bg-blue-sheff text-slate-800">Laundry</li>
       </ul>
     </div>
   </div>

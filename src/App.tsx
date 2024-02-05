@@ -6,9 +6,6 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Media from './components/Media'
 import Contact from './components/Contact'
-import Success from './components/Success'
-import Apply from './components/Apply'
-
 function App() {
 
 
@@ -22,8 +19,7 @@ function App() {
         <Route path="/" element ={<Home/>}/>
         <Route path="/studentlife" element ={<Media/>}/>
         <Route path="/contact" element ={<Contact/>}/>
-        <Route path="/apply" element ={<Apply/>}/>
-        <Route path="/success" element ={<Success/>}/>
+     
         </Routes>
       </div>
 
