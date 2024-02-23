@@ -1,6 +1,6 @@
 const Contact = () => {
  
-
+            const googleFormUrl ='https://docs.google.com/forms/d/e/1FAIpQLSehQnLOvu8GiijkeMERNYO7smptUStWeaiZhcFtHGA2_McVQQ/viewform?usp=sf_link'
 
   return (
     <div className="w-full md:w-96 md:max-w-full mx-auto py-5  shadow-xl">
@@ -93,7 +93,16 @@ const Contact = () => {
         </div>
       </form>
     </div>
-   
+    <div className="p-10">
+    <p>You can apply  below instead</p>
+    </div>
+    <div className="px-10 pb-10">
+      <a href={googleFormUrl}
+       className="bg-green-500 text-white font-bold py-2 px-4 rounded inline-block hover:bg-green-600"
+       target="_blank" rel="noopener noreferrer">
+      APPLY NOW
+      </a>
+    </div>
   </div>
   
   )
