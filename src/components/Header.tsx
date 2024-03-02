@@ -8,6 +8,9 @@ export default function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  const googleFormUrl ='https://docs.google.com/forms/d/e/1FAIpQLSehQnLOvu8GiijkeMERNYO7smptUStWeaiZhcFtHGA2_McVQQ/viewform?usp=sf_link'
+
+
   return (
     <nav className={`Navbar ${menuOpen ? 'open' : ''}`}>
       <div className='logo'>
@@ -38,6 +41,15 @@ export default function Header() {
             <NavLink to='/contact' className={({ isActive }) => (isActive ? 'bg-sky-800' : '')} onClick={toggleMenu}>
               Contact
             </NavLink>
+          </li>
+          <li>
+          
+      <a href={googleFormUrl}
+       className="bg-green-500 text-white font-bold py-2 px-4 rounded inline-block hover:bg-green-600"
+       target="_blank" rel="noopener noreferrer">
+      APPLY NOW
+      </a>
+   
           </li>
         </ul>
         
