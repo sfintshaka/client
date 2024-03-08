@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Media from './components/Media'
 import Contact from './components/Contact'
+import WhatsApp from './components/Whatsapp'
 function App() {
 
 
@@ -22,7 +23,7 @@ function App() {
      
         </Routes>
       </div>
-
+      <WhatsApp/>
       <Footer/>
   
     </BrowserRouter>
